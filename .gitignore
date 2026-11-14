@@ -1,0 +1,24 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
